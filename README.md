@@ -1,7 +1,7 @@
 <!--
-author:   Gionata Massi
+author:   Francesco Orsini
 
-email:    gionata.massi@savoiabenincasa.it
+email:    francesco.orsini@savoiabenincasa.it
 
 version:  0.0.1
 
@@ -19,7 +19,7 @@ import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/RE
 
 # Il linguaggio C++
 
-[Visualizza su LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/gionatamassibenincasa/as-25-26/refs/heads/main/3bsia/quaderno/README.md#1)
+[Visualizza su LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/Francesco09Orsini/informatica-3bsia/refs/heads/main/README.md#1)
 
 Appunti del capitolo 4 del libro di testo pp. 86--121.
 
