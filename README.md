@@ -140,6 +140,8 @@ int main() {
 #Il linguaggio C++
 ##Le basi del linguaggio
 ###Programma a pag. 93 - Tipi.cpp
+
+``` cpp
 // Tipi.cpp:dimensioni     dei tipi
 #include <iostream>
 using namespace std;
@@ -155,6 +157,34 @@ int main () {
     cout << "Dimensioni di char " << sizeof(chair) << " byte\n;
     cout << "Dimensioni di bool " << sizeof(bool) << " byte\n;
     return 0;
-}
 
+}
+```
+@LIA.cpp
+
+
+
+@LIA.cpp
+
+
+### Programma a pag. 98 - tipi.cpp
+
+### Programma a pag. 98 - Tipi.cpp
+
+``` cpp
+// Tipi.cpp:dimensioni     dei tipi
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int a =5;
+    float b = 3.56;
+    a = b;
+    cout << a;
+
+    return 0;
+}
+```
 @LIA.cpp
