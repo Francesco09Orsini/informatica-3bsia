@@ -168,8 +168,10 @@ int main () {
 
 
 ### Programma a pag. 98 - tipi.cpp
+#Il linguaggio C++
+## Il casting per la conversazione tipo
+###Programma a pag. 98 - Tipi.cpp
 
-### Programma a pag. 98 - Tipi.cpp
 
 ``` cpp
 // Tipi.cpp:dimensioni     dei tipi
@@ -188,3 +190,195 @@ int main ()
 }
 ```
 @LIA.cpp
+
+
+@LIA.cpp
+
+
+### Programma a pag. 98 - tipi.cpp
+#Il linguaggio C++
+## Il casting per la conversazione tipo
+###Programma a pag. 98 - Tipi.cpp
+
+``` cpp
+// Tipi.cpp:dimensioni     dei tipi
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int a =5;
+    float b = 3.56;
+    b = a;
+    cout << b;
+
+    return 0;
+}
+```
+@LIA.cpp
+
+
+@LIA.cpp
+
+
+### Programma a pag. 99 - tipi.cpp
+#Il linguaggio C++
+## Il casting per la conversazione tipo
+###Programma a pag. 99 - Tipi.cpp
+
+``` cpp
+// Tipi.cpp:dimensioni     dei tipi
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int a = 5;
+    int b = 2;
+    float c = 3.56;
+    float p;
+    p = a/b + c;
+    cout << p;
+
+    return 0;
+}
+```
+@LIA.cpp
+
+
+### Programma a pag. 99 - tipi.cpp
+#Il linguaggio C++
+## Il casting per la conversazione tipo
+###Programma a pag. 99 - Tipi.cpp
+
+``` cpp
+// Tipi.cpp:dimensioni     dei tipi
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int a = 5;
+    int b = 2;
+    float c = 3.56;
+    float p;
+    p = static_cast<float>(a)/b + c;
+    cout << p;
+
+    return 0;
+}
+```
+@LIA.cpp
+
+
+@LIA.cpp
+
+
+### Programma a pag. 103 - tipi.cpp
+#Il linguaggio C++
+## Le istruzioni di ingresso e di uscita
+###Programma a pag. 103 - Tipi.cpp
+
+``` cpp
+// Parcogiochi.cpp: divisione dei biglietti
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+   // input
+   int biglietti, ragazzi;
+   // output
+   int quota, avanzo;
+
+   cout << "Numero di biglietti e di ragazzi:";
+   cin >> biglietti/ ragazzi;
+   quota = biglietti / ragazzi;
+   avanzo = biglietti % ragazzi;
+   cout << "Ad ogni ragazzo spettano" << quota << "biglietti" << endl;
+   cout << "e ne avanzano" << avanzo << endl;
+
+   return 0;
+}
+```
+@LIA.cpp
+
+@LIA.cpp
+
+
+### Programma a pag. 105 - tipi.cpp
+#Il linguaggio C++
+## Gli errori nella programmazione 
+###Programma a pag. 105 - Tipi.cpp
+
+``` cpp
+// Quoziente.cpp: divisione di due numeri
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int a, b, q;
+    cin >> a >> b;
+    q = a / b
+    cout << q;
+
+    return 0;
+}
+```
+@LIA.cpp
+
+
+@LIA.cpp
+
+
+### Programma a pag. 106 - tipi.cpp
+#Il linguaggio C++
+## Gli errori nella programmazione 
+###Programma a pag. 106 - Tipi.cpp
+
+``` cpp
+// Differenza.cpp: differenza tra due numeri
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    int num1, num2, differenza;
+    cout << "Due numeri"
+    cin >> num1 >> num2;
+    differenza = num1 - num2
+    cout << "Risultato = " << differenza << endl
+
+    return 0;
+}
+```
+@LIA.cpp
+
+
+@LIA.cpp
+
+
+### Programma a pag. 107 - tipi.cpp
+#Il linguaggio C++
+## Gli errori nella programmazione 
+###Programma a pag. 107 - Tipi.cpp
+
+``` cpp
+// CalcoloSconto.cpp: calcolo del prezzo socntato
+#include <iostream>
+using <string>
+
+int main () 
+{
+
+
+
+
+}
+```
+@LIA.cpp
+
