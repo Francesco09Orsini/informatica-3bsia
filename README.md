@@ -372,13 +372,60 @@ int main ()
 #include <iostream>
 using <string>
 
+using namespace std;
+const int PERC = 20;     // percentuale di sconto
 int main () 
 {
+    // variabili di input-output
+    string descrizione;
+    float prezzo;
+    // variabili di lavoro
+    float sconto;
 
+    cout << "Descrizione e prezzo: ";
+    cin >> descrizione >> prezzo;
+    sconto = prezzo * PERC / 100;
+    prezzo = prezzo - sconto;
+    cout << descrizione << ": " << prezzo << endl;
 
-
-
+    return 0;
 }
 ```
 @LIA.cpp
+
+
+### Programma a pag. 109 - tipi.cpp
+#Il linguaggio C++
+## La struttura di alternativa  
+###Programma a pag. 109 - Tipi.cpp
+
+``` cpp
+// Ordina.cpp: due numeri in onridne crescente
+#include <iostream>
+
+int main () 
+{
+    // input
+    int a, b;
+
+    cout << "Due numeri: ";
+    cin >> a >> b;
+    if (a < b) {
+       cout << a << endl; 
+       cout << b << endl; 
+}
+ else {
+      cout << b << endl; 
+      cout << a << endl;
+}
+return 0;
+}
+```
+@LIA.cpp 
+
+
+
+
+
+
 
