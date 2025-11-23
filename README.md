@@ -139,7 +139,6 @@ int main() {
 ### Programma a pag. 93 - tipi.cpp
 #Il linguaggio C++
 ##Le basi del linguaggio
-###Programma a pag. 93 - Tipi.cpp
 
 ``` cpp
 // Tipi.cpp:dimensioni     dei tipi
@@ -170,7 +169,6 @@ int main () {
 ### Programma a pag. 98 - tipi.cpp
 #Il linguaggio C++
 ## Il casting per la conversazione tipo
-###Programma a pag. 98 - Tipi.cpp
 
 
 ``` cpp
@@ -198,7 +196,6 @@ int main ()
 ### Programma a pag. 98 - tipi.cpp
 #Il linguaggio C++
 ## Il casting per la conversazione tipo
-###Programma a pag. 98 - Tipi.cpp
 
 ``` cpp
 // Tipi.cpp:dimensioni     dei tipi
@@ -225,7 +222,6 @@ int main ()
 ### Programma a pag. 99 - tipi.cpp
 #Il linguaggio C++
 ## Il casting per la conversazione tipo
-###Programma a pag. 99 - Tipi.cpp
 
 ``` cpp
 // Tipi.cpp:dimensioni     dei tipi
@@ -251,7 +247,6 @@ int main ()
 ### Programma a pag. 99 - tipi.cpp
 #Il linguaggio C++
 ## Il casting per la conversazione tipo
-###Programma a pag. 99 - Tipi.cpp
 
 ``` cpp
 // Tipi.cpp:dimensioni     dei tipi
@@ -280,7 +275,6 @@ int main ()
 ### Programma a pag. 103 - tipi.cpp
 #Il linguaggio C++
 ## Le istruzioni di ingresso e di uscita
-###Programma a pag. 103 - Tipi.cpp
 
 ``` cpp
 // Parcogiochi.cpp: divisione dei biglietti
@@ -311,8 +305,7 @@ int main ()
 
 ### Programma a pag. 105 - tipi.cpp
 #Il linguaggio C++
-## Gli errori nella programmazione 
-###Programma a pag. 105 - Tipi.cpp
+## Gli errori nella programmazione
 
 ``` cpp
 // Quoziente.cpp: divisione di due numeri
@@ -338,7 +331,6 @@ int main ()
 ### Programma a pag. 106 - tipi.cpp
 #Il linguaggio C++
 ## Gli errori nella programmazione 
-###Programma a pag. 106 - Tipi.cpp
 
 ``` cpp
 // Differenza.cpp: differenza tra due numeri
@@ -365,7 +357,6 @@ int main ()
 ### Programma a pag. 107 - tipi.cpp
 #Il linguaggio C++
 ## Gli errori nella programmazione 
-###Programma a pag. 107 - Tipi.cpp
 
 ``` cpp
 // CalcoloSconto.cpp: calcolo del prezzo socntato
@@ -397,7 +388,6 @@ int main ()
 ### Programma a pag. 109 - tipi.cpp
 #Il linguaggio C++
 ## La struttura di alternativa  
-###Programma a pag. 109 - Tipi.cpp
 
 ``` cpp
 // Ordina.cpp: due numeri in onridne crescente
@@ -423,9 +413,171 @@ return 0;
 ```
 @LIA.cpp 
 
+### Programma a pag. 110 - tipi.cpp
+#Il linguaggio C++
+## La struttura di alternativa  
+
+``` cpp
+// TreXDue.cpp: offerta 3 x 2
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    // input
+    float prezzo;
+    int qta;
+    // output
+    float importo;
+
+    cout << "Prezzo e quantita' : ";
+    cin >> prezzo >> qta;
+    if (qta == 3) qta = 2;
+    importo = prezzo * qta;
+    cout << "Importo da pagare = " << importo << endl;
+ 
+    return 0;
+}
+```
+@LIA.cpp 
+
+### Programma a pag. 112 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione 
 
 
+``` cpp
+//  Prodotto.cpp: prodotto di due numeri
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    // input
+    int a, b;
+    // output
+    int prod = 0;
+
+    cout << "Due numeri: ";
+    cin >> a >> b;
+    do {
+       prod += a;
+       b--;
+    } while (b > 0 );
+
+    cout << "Prodotto = " << prod << endl
+
+    return 0;
+}
+```
+@LIA.cpp 
 
 
+### Programma a pag. 112 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione 
+
+``` cpp
+//  Elenco1.cpp: elenco di persone 
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main () 
+{
+    // input
+    string nome;
+    int eta;
+    int risp;
+    // output
+    int conta = 0;
+
+    do {
+       cout << "Nome: ";
+       cin >> nome;
+       cout << "Eta' : ";
+       cin >> eta;
+       if (eta >= 18) conta++;
+       cout << "Elenco finito: 0 = no, 1 = si ? ";
+       cin >> risp; 
+} while (risp == o );
+
+    cout << "I maggiorenni sono = " << conta << endl
+
+    return 0;
+}
+```
+@LIA.cpp 
 
 
+### Programma a pag. 115 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione precondizionale 
+
+
+``` cpp
+//  Divisione.cpp: divisione tra interi con sottrazioni successive 
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    // input
+    int a, b;
+    // output
+    int quoz = 0; // quoziente della divisione tra interi
+
+    cout << "Due numeri (dividendo e divisore): ",
+    cin >> a >> b;
+    while (a >= b ) {
+       a -= b;
+       quoz++;
+}
+    cout << "Quoziente = " << quoz << endl
+    cout << "Resto     = " << a << endl;
+    
+    return 0;
+}
+```
+@LIA.cpp 
+
+
+### Programma a pag. 115 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione precondizionale 
+
+
+``` cpp
+//  Elenco2.cpp: elenco di persone 
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main () 
+{
+    // input
+    string nome;
+    int eta;
+    // output
+    int conta = 0;
+
+    cout << "Nome (*=fine): ",
+    cin >> nome
+    while (nome != "*") {
+       cout << "Eta': ";
+       cin >> eta;
+       if (eta >= 18) conta++;
+       cout << "Nome (*=fine): ";
+       cin >> nome;
+}
+    cout << "I maggiorenni sono = " << conta << endl;
+    
+    return 0;
+}
+```
+@LIA.cpp 
