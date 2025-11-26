@@ -581,3 +581,91 @@ int main ()
 }
 ```
 @LIA.cpp 
+
+### Programma a pag. 118 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione con contatore  
+
+
+``` cpp
+//  Doppio.cpp: doppio dei primi 30 numeri naturali
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+    for (int i=1; i<=30; i++) {
+    cout << i*2 << endl;
+}
+
+    
+    return 0;
+}
+```
+@LIA.cpp 
+
+
+### Programma a pag. 118 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione con contatore  
+
+
+``` cpp
+//  TavolaPitagorica.cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main () 
+{
+    for (int r=1; r<=10; r++) {
+       for (int c=1; c<=10; c++) {
+          cout << setw(5) << r*c;
+       }
+       cout << endl;
+    }
+
+    return 0;
+}
+```
+@LIA.cpp 
+
+### Programma a pag. 119 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione con contatore  
+
+
+``` cpp
+//  Massimo.cpp: massimo di n numeri
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+   // input         
+   int n;           // numero dei dati inseriti 
+   int dato,        // dato inserito
+   // output
+   int max;         // massimo
+
+   cout << "Quanti sono i dati? ";
+   cin >> n;
+   for ( int i=1; i<=n; i++) {
+      cout << "Inserisci il " << i << ". dato: ";
+      cin >> dato;
+      if (i == 1) max = dato;
+      if (dato > max ) max = dato;
+   }
+
+   cout << "Il massimo valore e' " << max << endl;
+ 
+   return 0;
+}
+```
+@LIA.cpp 
+
+
+ 
+
+
+
