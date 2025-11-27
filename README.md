@@ -665,6 +665,75 @@ int main ()
 @LIA.cpp 
 
 
+### Programma a pag. 119 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione con contatore  
+
+
+``` cpp
+//  Massimo.cpp: massimo di n numeri
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+   // input         
+   int n;           // numero dei dati inseriti 
+   int dato,        // dato inserito
+   // output
+   int max;         // massimo
+
+   cout << "Quanti sono i dati? ";
+   cin >> n;
+   for ( int i=1; i<=n; i++) {
+      cout << "Inserisci il " << i << ". dato: ";
+      cin >> dato;
+      if (i == 1) max = dato;
+      if (dato > max ) max = dato;
+   }
+
+   cout << "Il massimo valore e' " << max << endl;
+ 
+   return 0;
+}
+```
+@LIA.cpp 
+
+### Programma a pag. 119 - tipi.cpp
+#Il linguaggio C++
+## La ripetizione con contatore  
+
+
+``` cpp
+// ScontoProgressivo.cpp: sconto progressivo sui prodotti
+
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+   // input
+   float prezzo;        // prezzo del prodotto     
+   int pezzi;           // pezzi acquistati 
+   // output
+   float importo        // importo da pagare
+
+   cout << "Quanti sono i dati? ";
+   cin >> n;
+   for ( int i=1; i<=n; i++) {
+      cout << "Inserisci il " << i << ". dato: ";
+      cin >> dato;
+      if (i == 1) max = dato;
+      if (dato > max ) max = dato;
+   }
+
+   cout << "Il massimo valore e' " << max << endl;
+ 
+   return 0;
+}
+```
+@LIA.cpp 
  
 
 
